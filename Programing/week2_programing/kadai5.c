@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int is_prime (int);
+
 int main(){
   int i;
   for (i = 2; i <= 1000; i ++){

@@ -14,7 +14,7 @@ int main () {
 double series() {
   double sum = 0;
   double denominator;
-  ...
+  for (int i = 1; i < 100; i ++) {
     denominator = i * i * pow(2,i - 1);
     sum += 1/denominator; 
   }

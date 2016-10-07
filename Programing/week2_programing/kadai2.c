@@ -5,9 +5,9 @@ int main () {
   while((c = getchar())!= EOF) {
     if (c == ' '){
       while((c = getchar())!= EOF) {
-	if (c == '\n'){
-	  break;
-	}
+        if (c == '\n') {
+          break;
+        }
       }
     }
     putchar(c);

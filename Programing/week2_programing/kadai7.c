@@ -15,11 +15,10 @@ int main () {
 int gcd(int a, int b){
   int max = 0;
     
-  for (int i =1; i <= a && i <= b; i++)
-    {
-      if (a%i == 0 && b%i == 0){
-	max = i;
-      }
+  for (int i =1; i <= a && i <= b; i++) {
+    if (a%i == 0 && b%i == 0) {
+      max = i;
     }
+  }
   return max;
 }
