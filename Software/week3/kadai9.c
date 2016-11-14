@@ -4,7 +4,6 @@
 
 #define NALPHA 26
 
-
 int main()
 {
   FILE *fp;
@@ -29,11 +28,10 @@ int main()
   double prob;
   for( i = 0 ; i < NALPHA ; i++ ) {
     prob = (double)count[i]/(double)sum_of_characters;
-    
     en += prob * (-log2(prob));
   }
   printf("entropy = %f\n", en);
   fclose(fp);
-  
+
   return 0;
 }

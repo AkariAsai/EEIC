@@ -3,7 +3,6 @@
 
 #define NALPHA 26
 
-
 int main()
 {
   FILE *fp;
@@ -21,8 +20,8 @@ int main()
     }
   }
 
-  for( i = 0 ; i < NALPHA ; i++ ) { 
-    printf( "%c : %d\n", 'a'+i, count[i] );  
+  for( i = 0 ; i < NALPHA ; i++ ) {
+    printf( "%c : %d\n", 'a'+i, count[i] );
   }
   
   fclose(fp);
