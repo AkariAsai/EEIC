@@ -1,0 +1,16 @@
+This is a quick help for you to use CUIPallete.
+Commands:
+  *line x0 y0 x1 y1 -> You can draw a line from (x0, y0) to (x1, y1) on canvas.
+  *rect x0 y0 width height -> You can draw a rectangle with width/height, starting from (x0, y0).
+  *circle x0 y0 r -> You can draw a circle, whose center is (x0, y0) and radius is r.
+  *tri x0 y0 x1 y1 x2 y2 -> you can write a triangle which have vertices (x0, y0), (x1, y1), (x2, y2).
+  *color {black, red, green, yellow, blue, magenta, cyan} -> You can choose color from {} and change it for each object.
+  *bgcolor {black, red, green, yellow, blue, magenta, cyan} -> You can also change the back ground color.
+  *snow ->Y ou can add snow effect on canvas. Snow is falling down for a while.
+  *save -> You can save the canvas.
+  *savepbm -> You can save what you draw on canvas as a ppm file.
+  *saveppm -> You can save what you draw on canvas as a pbm file.
+  *load -> You can load what you saved last time and start with it.
+  *undo -> You can undo command.
+  *redo -> You can redo command.
+  *quit -> Type quit what you would like to terminate this app.
